@@ -5,7 +5,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/GulbeEvija/Monthly-Spending-App">
-    <img src="spendingsIcon.png" alt="Logo" width="80" height="80">
+    <img src="spendingIcon.png" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">Monthly Spending App</h3>
@@ -105,4 +105,4 @@ Project provided by [CanSheCode](https://edu-canshecode.thinkific.com/)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-[product-screenshot]: spendingsPhoto.png
+[product-screenshot]: spendingPhoto.png
