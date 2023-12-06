@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monthly spendings</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="container">
+        <div>
+            <h1>Let's calculate monthly spendings!</h1>
+        </div>
+
+        <form>
+            <div class="salary">
+                <p>Salary #1:</p>
+                <input type="text" placeholder="Salary #1..." id="salaryOne">
+
+                <p>Salary #2:</p>
+                <input type="text" placeholder="Salary #2..." id="salaryTwo">
+            </div>
+
+            <div>
+                <p class="monthPlan">Which monthly spending plan would you like to calculate?</p>
+
+                <button id="addPlan">Add a plan!</button>
+                <select id="plan">
+                    <option disabled>Select a spending plan!</option>
+                    <option value="0.50" selected>Master spender: 50% - 20% - 20% - 10%</option>
+                    <option value="0.60">Intermediate spender: 60% - 15% - 15% - 10%</option>
+                    <option value="0.70">Beginner spender:  70% - 10% - 10% - 10%</option>
+                    <option value="0.90">Splurger!: 90% - 0% - 0% - 10%</option>
+                </select>
+            </div>
+            <br>
+            <button id="btn">Calculate!</button>
+        </form>
+
+        <br>
+
+        <div id="showTotalSalary">
+            <div id="totalIncome">
+                <p>Total income</p>
+                <div>
+                    <span>$</span>
+                    <span id="salaryTotal"></span>
+                </div>
+            </div>
+
+            <div id="spendingPlans">
+                <div class="block">
+                    <p>Living expenses</p>
+                    <span>$</span>
+                    <span id="expenses"></span>
+                </div>
+
+                <div class="block" >
+                    <p>Savings for bad days</p>
+                    <span>$</span>
+                    <span id="savings"></span>
+                </div>
+
+                <div class="block">
+                    <p>Investment</p>
+                    <span>$</span>
+                    <span id="investment"></span>
+                </div>
+
+                <div class="block">
+                    <p>Pay yourself</p>
+                    <span>$</span>
+                    <span id="payYourself"></span>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="index.js"></script>
+</body>
+</html>

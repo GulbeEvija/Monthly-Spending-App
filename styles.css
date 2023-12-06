@@ -1,0 +1,113 @@
+body {
+    background-image: url(https://images.unsplash.com/photo-1602605412841-c6dbf54148e0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1111&q=80);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.1em;
+}
+
+#container {
+    background-color: rgba(240, 248, 255, 0.774);
+    padding: 40px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+h1 {
+    color: #132460;
+    font-size: 30px;
+    font-weight: bolder;
+    letter-spacing: 0.2em;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+.salary {
+    display: flex;
+    justify-content: space-between;
+}
+
+p {
+    color: #132460;
+    font-size: 15px;
+}
+
+input {
+    padding: 5px;
+    color: #132460;
+    font-size: 15px;
+    margin: 10px;
+    border: 1px solid #132460;
+}
+
+
+#addPlan {
+    background-color: #57bfd8;
+    padding: 10px;
+  width: 100%;
+    border: 1px solid #132460;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    color: #132460;
+}
+
+select {
+  width: 100%;
+}
+
+#btn {
+    background-color: #132460;
+    padding: 10px;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    color: aliceblue;
+    border: 1px solid #132460;
+}
+
+#spendingPlans {
+    display: flex;
+}
+
+
+#totalIncome {
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border: 2px solid #132460;
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+span {
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    color: #132460;
+}
+
+.block {
+    background-color: aliceblue;
+    padding: 30px;
+    border: 2px solid #132460;
+    margin: 15px;
+    width: 100px;
+    height: 100px;
+}
+
+#plan {
+    display: none;
+}
