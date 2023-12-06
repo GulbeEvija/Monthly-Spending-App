@@ -1,5 +1,3 @@
-# Monthly-Spending-App
-
 <a name="readme-top"></a>
 
 <br />
